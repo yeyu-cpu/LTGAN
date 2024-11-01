@@ -17,3 +17,8 @@ find model.py in clip，comment line 235,237,238
 ```
 pretrained model can be downloaded from [weights](https://pan.baidu.com/s/1K6CCFJapkdvAYAeISlvAvw?pwd=j0ka ), put G.pth into ./ckpts
 data can be downloaded from [data](https://pan.baidu.com/s/1Ahokgl8AF_-ZGQMqi1CwRQ?pwd=a260)
+## Test  
+to test our model, run:  
+```
+python scripts/demo.py
+```  
