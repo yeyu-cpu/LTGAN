@@ -15,3 +15,5 @@ find model.py in clip，comment line 235,237,238
 # if self.proj is not None:  
 #     x = x @ self.proj
 ```
+pretrained model can be downloaded from [weights](https://pan.baidu.com/s/1K6CCFJapkdvAYAeISlvAvw?pwd=j0ka ), put G.pth into ./ckpts
+data can be downloaded from [data](https://pan.baidu.com/s/1Ahokgl8AF_-ZGQMqi1CwRQ?pwd=a260)
