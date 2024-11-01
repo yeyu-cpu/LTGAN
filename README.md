@@ -22,3 +22,6 @@ to test our model, run:
 ```
 python scripts/demo.py
 ```  
+**Robust makeup transfer under extreme lighting.**
+
+![robust](Mypsd_2969_201012102201250011B_all.png 'robust makeup transfer')
