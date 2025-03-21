@@ -18,10 +18,16 @@ Find model.py in clip，comment line 235,237,238.
 Pretrained model can be downloaded from [weights](https://pan.baidu.com/s/1K6CCFJapkdvAYAeISlvAvw?pwd=j0ka ), put G.pth into ./ckpts.  
 Testing data can be downloaded from [data](https://pan.baidu.com/s/1Ahokgl8AF_-ZGQMqi1CwRQ?pwd=a260).
 ## Test  
-to test our model, run:  
+To test our model, run:  
 ```
 python scripts/demo.py
-```  
+```
+## Train
+to train the model, download MT dataset from [dataset](https://github.com/wtjiang98/BeautyGAN_pytorch) and put it into ./data, then run:
+```
+python training/preprocess.py
+python scripts/train.py
+```
 **Robust makeup transfer under extreme lighting.**
 
 ![robust](Mypsd_2969_201012102201250011B_all.png 'robust makeup transfer')
