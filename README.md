@@ -23,7 +23,7 @@ To test our model, run:
 python scripts/demo.py
 ```
 ## Train
-to train the model, download MT dataset from [dataset](https://github.com/wtjiang98/BeautyGAN_pytorch) and put it into ./data, then run:
+to train the model, download MT dataset from [BeautyGAN](https://github.com/wtjiang98/BeautyGAN_pytorch) and put it into ./data, then run:
 ```
 python training/preprocess.py
 python scripts/train.py
